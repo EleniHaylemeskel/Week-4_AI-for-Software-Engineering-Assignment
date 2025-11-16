@@ -1,0 +1,33 @@
+Bonus Task 
+
+Innovation Challenge: Propose an AI tool to solve a software engineering problem not covered in class (e.g., automated documentation generation).
+Deliverable: 1-page proposal outlining the tool’s purpose, workflow, and impact.
+
+Proposal: DocuAI – AI-Powered Automated Documentation Generator
+
+Purpose
+
+DocuAI is an AI-powered tool designed to automatically generate comprehensive software documentation from source code, project files, and version control history. Its goal is to reduce the time developers spend writing documentation manually while ensuring consistency, readability, and accuracy.
+
+Workflow
+
+    - Code Analysis: DocuAI parses source code, extracting function definitions, classes, APIs, and modules.
+    - Context Understanding: Leveraging natural language processing (NLP), it interprets variable names, comments, and commit messages to understand intent.
+
+Documentation Generation: Generates structured, human-readable documentation, including:
+
+    - API references
+    - Code examples
+    - UML diagrams for architecture
+
+Change logs from version control history
+
+    - Interactive Review: Developers can review, edit, or approve suggestions via a web interface.
+    - Continuous Updates: Integrates with CI/CD pipelines to auto-update documentation when the codebase changes.
+
+Impact
+
+    - Time Efficiency: Reduces manual documentation effort by up to 70%.
+    - Improved Accuracy: Minimizes errors caused by outdated or missing documentation.
+    - Knowledge Transfer: Supports onboarding of new developers with up-to-date and clear code understanding.
+    - Enhanced Collaboration: Promotes better communication across teams, improving project maintainability and scalability.

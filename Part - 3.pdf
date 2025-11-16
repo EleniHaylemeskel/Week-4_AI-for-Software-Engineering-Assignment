@@ -1,0 +1,20 @@
+Part 3: Ethical Reflection
+
+    Prompt: Your predictive model from Task 3 is deployed in a company. Discuss:
+    Potential biases in the dataset (e.g., underrepresented teams).
+    How fairness tools like IBM AI Fairness 360 could address these biases.
+
+        When deploying the breast cancer predictive model in a company, several ethical considerations arise:
+        Potential Biases in the Dataset
+           - Class Imbalance: If some issue priorities (e.g., “high”) are underrepresented, the model may underpredict these cases.
+            - Team Representation: If certain teams, departments, or demographic groups are underrepresented in the dataset, predictions for their cases could be less accurate.
+            - Feature Bias: If the images or labels reflect historical decisions influenced by subjective judgment, the model may learn those biases.
+
+        Mitigating Bias with Fairness Tools
+        IBM AI Fairness 360 (AIF360) can detect, measure, and mitigate biases in machine learning pipelines.
+        
+        Techniques include:
+            - Reweighing samples to balance underrepresented classes or groups.
+            - Post-processing predictions to reduce disparate impact.
+            - Pre-processing features to remove sensitive information correlated with bias.
+            - Using AIF360, the company can monitor fairness metrics and ensure the model’s predictions are equitable across teams or departments.
